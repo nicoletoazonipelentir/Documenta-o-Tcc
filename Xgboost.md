@@ -308,18 +308,3 @@ RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
 | Julho/2026 | 01/07/2026 | 31/07/2026 |
 | Agosto/2026 | 01/08/2026 | 31/08/2026 |
 | Trimestre completo | 01/06/2026 | 31/08/2026 |
-
-## 7. Limitações e considerações técnicas
-
-| Aspecto | Consideração |
-|:---|:---|
-| Extrapolação de tendência | Árvores de decisão não extrapolam tendências temporais diretamente. |
-| Dependência histórica | A previsão depende dos atributos construídos a partir dos valores anteriores. |
-| Mudanças abruptas | Alterações fora dos padrões aprendidos podem reduzir a precisão. |
-| Parâmetros fixos | Os modelos não são reajustados durante o período de avaliação. |
-| Atualização histórica | Os lags são atualizados com valores reais observados. |
-| Diferenças entre indicadores | CPA utiliza atributos de ciclo e calendário; ROAS utiliza somente seus lags. |
-| Transformação do ROAS | A previsão é revertida para a escala original antes da avaliação. |
-| Escala do CPA | O CPA é previsto diretamente em sua escala original. |
-
-
