@@ -108,9 +108,9 @@ A variável `fase_ciclo_num` é obtida por meio do mapeamento das categorias tex
 
 A previsão final é definida por:
 
-\[
-\hat{y}_{\mathrm{CPA}} = \max(\hat{y}, 0)
-\]
+$$
+\hat{y}_{\text{CPA}} = \max(\hat{y}, 0)
+$$
 
 ## 3. XGBoost ROAS
 
@@ -175,21 +175,21 @@ A previsão final é definida por:
 
 A transformação é definida por:
 
-\[
-y'=\ln(1+y)
-\]
+$$
+y' = \ln(1+y)
+$$
 
 Após a previsão, o resultado retorna à escala original:
 
-\[
-\hat{y}=\exp(\hat{y}')-1
-\]
+$$
+\hat{y} = \exp(\hat{y}') - 1
+$$
 
 A previsão final é definida por:
 
-\[
-\hat{y}_{ROAS}=\max(\exp(\hat{y}')-1,0)
-\]
+$$
+\hat{y}_{\text{ROAS}} = \max(\exp(\hat{y}') - 1, 0)
+$$
 
 ## 4. Comparação direta: CPA × ROAS
 
@@ -276,9 +276,9 @@ A previsão final é definida por:
 
 ### 6.1. Erro Absoluto Médio (MAE)
 
-\[
-MAE=\frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
-\]
+$$
+MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
+$$
 
 | Elemento | Descrição |
 |:---|:---|
@@ -289,9 +289,9 @@ MAE=\frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
 
 ### 6.2. Raiz do Erro Quadrático Médio (RMSE)
 
-\[
-RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
-\]
+$$
+RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
+$$
 
 | Elemento | Descrição |
 |:---|:---|
