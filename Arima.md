@@ -241,9 +241,9 @@ ausentes utilizada na estimação do Statsmodels.
 
 ### 6.1. Erro Absoluto Médio (MAE)
 
-\[
-MAE = \frac{1}{n}\sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
+$$
+MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
+$$
 
 | Elemento      | Descrição                                                          |
 |:--------------|:-------------------------------------------------------------------|
@@ -254,9 +254,9 @@ MAE = \frac{1}{n}\sum_{i=1}^{n} |y_i - \hat{y}_i|
 
 ### 6.2. Raiz do Erro Quadrático Médio (RMSE)
 
-\[
+$$
 RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
-\]
+$$
 
 | Elemento      | Descrição                                                                              |
 |:--------------|:---------------------------------------------------------------------------------------|
