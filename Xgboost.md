@@ -109,7 +109,7 @@ A variável `fase_ciclo_num` é obtida por meio do mapeamento das categorias tex
 A previsão final é definida por:
 
 \[
-\hat{y}_{CPA}=\max(\hat{y},0)
+\hat{y}_{\mathrm{CPA}} = \max(\hat{y}, 0)
 \]
 
 ## 3. XGBoost ROAS
